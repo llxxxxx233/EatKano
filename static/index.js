@@ -465,11 +465,11 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '试着好好练一下？';
-        if (cps <= 8) return 'TCL';
-        if (cps <= 10)  return 'TQL';
-        if (cps <= 15) return '您';
-        return '人？';
+        if (cps <= 5) return '再好好试一下吧';
+        if (cps <= 8) return '还可以做得更好的对吧';
+        if (cps <= 10)  return '做得很好哦';
+        if (cps <= 15) return '我就知道你可以的';
+        return '有时候真羡慕你们这些有手速的疯子';
     }
 
     function toStr(obj) {
