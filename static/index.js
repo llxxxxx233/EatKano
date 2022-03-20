@@ -465,10 +465,9 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '再好好试一下吧';
-        if (cps <= 8) return '还可以做得更好的对吧';
-        if (cps <= 10)  return '做得很好哦';
-        if (cps <= 15) return '我就知道你可以的';
+        if (cps <= 5) return '再试一下吧';
+        if (cps <= 10) return '做得很好^ ^';
+        if (cps <= 15) return '你很有天赋';
         return '有时候真羡慕你们这些有手速的疯子';
     }
 
